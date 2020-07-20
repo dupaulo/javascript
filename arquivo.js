@@ -1,5 +1,4 @@
 
-window.addEventListener('load', start);
 
 let inputDisplay = null;
 let inputRangeC1 = null;
