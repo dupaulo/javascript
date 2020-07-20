@@ -4,70 +4,21 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Gerador de cor</title>
-<style>
-body{
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.conteudo-flex{
-   background-color:coral;
-   text-align: center;
-   padding: 5px;
-}
-.topo{
-   display:flex;
-   padding:2px;
-   margin-top:10px;
-   height: 50px;
-   
-   font-size: 25px;
-}
-.grupo-de-cores{
-   display:flex;
-   flex-direction: column;
-   border:2px solid #000;
-   padding:8px;
-   height: 200px;
-   width: 400px;
-}
-#cor-gerada{
-   padding:60px;
-   border: 1px solid #000;
-   height: 150px;
-   width: 155px;
-   border-radius: 300px;
-   margin-top: 15px;
-   
-}
-#inputDisplay{
-   height: 40px;
-   text-align: center;
-   font-size: 13px;
-   font-weight: bold;
-}
-#resColorTwo{
-   height: 40px;
-   margin-top: 5px;
-   text-align: center;
-   font-size: 13px;
-   font-weight: bold;
-}
-#resColorThree{
-   height: 40px;
-   margin-top: 5px;
-   text-align: center;
-   font-size: 13px;
-   font-weight: bold;
-}
-</style>
+   <link rel="stylesheet" href="css/estilos.css"></style>
 </head>
 <body>
     <div class="conteudo-flex">
          <header>
-         </header>  
+
+         </header>
+    
 <section>
-   <div class="topo">         
+   <div class="topo">
+         
          Gerador de cores
-   </div>        
+
+   </div>      
+   
    <div class="grupo-de-cores">
                <span>Simulando cores</span>
             <div id="">
@@ -86,5 +37,9 @@ body{
          </div>   
       </div>
    </section>
+   <script type="text/javascript" src="js/arquivo.js"></script>
+   <script>
+         window.addEventListener('load', start); 
+   </script>
 </body>
 </html>
